@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zielona Niania – Hotel i opieka nad roślinami | Projekt edukacyjny</title>
+  <meta name="description" content="Wyjeżdżasz na urlop? Zostaw swoją domową dżunglę pod opieką Zielonej Niani. Bezpłatna wycena opieki, przegląd zdrowia roślin i roślinne SPA. Projekt demonstracyjny.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Informacja o charakterze demonstracyjnym i planowanych narzędziach -->
+  <div class="demo-banner" role="region" aria-label="Informacja o projekcie">
+    <div class="container demo-banner-inner">
+      <p>
+        <strong>Projekt edukacyjny i demonstracja:</strong> Strona prezentuje fikcyjną usługę. Nie zbieramy prawdziwych klientów ani nie wysyłamy danych na serwer. Planowane narzędzia pomiarowe: GTM, GA4, Meta Pixel, Microsoft Clarity.
+      </p>
+      <button type="button" id="open-consent-btn" class="btn-link">Ustawienia zgód</button>
+    </div>
+  </div>
+
+  <!-- Nagłówek -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="logo">Zielona Niania</a>
+      <nav aria-label="Nawigacja główna">
+        <a href="#oferta">Oferta i SPA</a>
+        <a href="#jak-to-dziala">Jak to działa</a>
+        <a href="#sekcja-formularz">Wycena</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Sekcja 1: Hero -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <span class="badge">Lokalny hotel dla roślin doniczkowych</span>
+          <h1>Wyjeżdżasz na urlop? Nie pozwól swoim roślinom uschnąć z tęsknoty.</h1>
+          <p class="lead">
+            Odbierz bezpłatną wycenę opieki nad Twoją domową dżunglą. Ty odpoczywasz, my dbamy o odpowiednie nawodnienie, światło i wilgotność.
+          </p>
+          <div class="hero-actions">
+            <a href="#sekcja-formularz" class="btn btn-primary" id="cta-hero" data-cta-location="hero">
+              Zamów darmową wycenę
+            </a>
+            <a href="#jak-to-dziala" class="btn btn-secondary">Zobacz, jak to działa</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <img src="assets/roslina.svg" alt="Ilustracja zadbanej rośliny doniczkowej" class="plant-illustration">
+        </div>
+      </div>
+    </section>
+
+    <!-- Sekcja 2: Oferta, korzyści i zbijanie obiekcji -->
+    <section id="oferta" class="section">
+      <div class="container">
+        <h2>Bezpieczne wakacje dla Twoich okazów i Roślinne SPA</h2>
+        <p class="section-intro">
+          Zamiast prosić sąsiadów o podlewanie „na oko”, powierz swoje rośliny specjalistom. Dopasowujemy pakiety do wielkości Twojej kolekcji.
+        </p>
+
+        <div class="cards-grid">
+          <article class="card">
+            <h3>Przegląd zdrowia i kwarantanna</h3>
+            <p>
+              Martwisz się o szkodniki? Każda roślina przed przyjęciem przechodzi obowiązkowy przegląd stanu zdrowia, a w razie potrzeby trafia na bezpieczną kwarantannę.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Ubezpieczona opieka i warunki</h3>
+            <p>
+              Boisz się powierzyć nam drogie, kolekcjonerskie okazy? Nasza opieka jest w pełni ubezpieczona, a wilgotność i doświetlenie dobieramy indywidualnie.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Roślinne SPA na życzenie</h3>
+            <p>
+              Podczas pobytu możesz domówić zabiegi pielęgnacyjne: przesadzanie do odpowiedniego podłoża, nabłyszczanie liści oraz opryski wzmacniające i ochronne.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Fotorelacje z pobytu</h3>
+            <p>
+              Chcesz mieć pewność, że Twoja monstera ma się świetnie? Wysyłamy regularne zdjęcia podopiecznych, abyś mógł spać spokojnie na urlopie.
+            </p>
+          </article>
+        </div>
+
+        <div class="center-cta">
+          <a href="#sekcja-formularz" class="btn btn-primary" id="cta-oferta" data-cta-location="oferta">
+            Zarezerwuj opiekę i zabiegi SPA
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sekcja 3: Sekcja informacyjna do pomiaru widoczności (section_view) -->
+    <section id="jak-to-dziala" class="section section-alt">
+      <div class="container">
+        <h2>Jak działa nasz roślinny hotel?</h2>
+        <p class="section-intro">Trzy proste kroki do spokojnego wyjazdu.</p>
+
+        <ol class="steps-list">
+          <li class="step-item">
+            <span class="step-number">1</span>
+            <div>
+              <h3>Zgłaszasz liczbę roślin</h3>
+              <p>Wypełniasz krótki formularz poniżej, podając orientacyjną liczbę roślin oraz termin planowanego wyjazdu.</p>
+            </div>
+          </li>
+          <li class="step-item">
+            <span class="step-number">2</span>
+            <div>
+              <h3>Przegląd i dobór pakietu</h3>
+              <p>Oceniamy stan zdrowia okazów przy przyjęciu, ustalamy ewentualne zabiegi SPA i lokujemy rośliny w odpowiedniej strefie.</p>
+            </div>
+          </li>
+          <li class="step-item">
+            <span class="step-number">3</span>
+            <div>
+              <h3>Odbierasz wypoczętą dżunglę</h3>
+              <p>Po powrocie odbierasz zdrowe, nawodnione i zadbane rośliny.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Sekcja 4: Formularz demonstracyjny -->
+    <section id="sekcja-formularz" class="section">
+      <div class="container form-wrapper">
+        <div class="form-header">
+          <h2>Zarezerwuj bezpłatną wycenę</h2>
+          <p>
+            Formularz demonstracyjny – testuj wyłącznie na danych fikcyjnych (np. <code>test@example.com</code>). Pola oznaczone <span aria-hidden="true">*</span> są wymagane.
+          </p>
+        </div>
+
+        <form id="lead-form" novalidate>
+          <div class="form-group">
+            <label for="client-email">Fikcyjny adres e-mail <span aria-hidden="true">*</span></label>
+            <input
+              type="email"
+              id="client-email"
+              name="client_email"
+              placeholder="np. test@example.com"
+              autocomplete="email"
+              required
+              aria-describedby="error-email"
+            >
+            <span class="error-message" id="error-email" aria-live="polite"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="plant-count">Liczba roślin do opieki <span aria-hidden="true">*</span></label>
+            <input
+              type="number"
+              id="plant-count"
+              name="plant_count"
+              min="1"
+              max="200"
+              placeholder="np. 5"
+              required
+              aria-describedby="error-plants"
+            >
+            <span class="error-message" id="error-plants" aria-live="polite"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="service-topic">Temat zainteresowania <span aria-hidden="true">*</span></label>
+            <select id="service-topic" name="service_topic" required aria-describedby="error-topic">
+              <option value="">-- Wybierz pakiet --</option>
+              <option value="hotel">Standardowy pobyt w hotelu dla roślin</option>
+              <option value="hotel_spa">Pobyt w hotelu + Roślinne SPA (przesadzanie / opryski)</option>
+              <option value="wizyta_domowa">Opieka dochodząca (Zielona Niania w domu)</option>
+            </select>
+            <span class="error-message" id="error-topic" aria-live="polite"></span>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-full" id="submit-btn">
+            Wyślij zgłoszenie demonstracyjne
+          </button>
+        </form>
+
+        <!-- Komunikat sukcesu zgodny z instrukcją Spotkania 2 -->
+        <div id="form-success" class="success-box" role="status" aria-live="polite" hidden>
+          <h3>Demonstracja zakończona — dane nie zostały wysłane</h3>
+          <p>Dziękujemy za przetestowanie formularza demonstracyjnego Zielonej Niani. Przycisk wysyłki został zablokowany w tym wyświetleniu strony.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Stopka -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p><strong>Zielona Niania</strong> – Projekt edukacyjny i demonstracja analityki webowej.</p>
+      <p>Źródła grafik: Własna ilustracja wektorowa <code>assets/roslina.svg</code> przygotowana na potrzeby projektu.</p>
+      <p>
+        Narzędzia pomiarowe (do wdrożenia w kolejnych etapach): Google Tag Manager, Google Analytics 4, Meta Pixel, Microsoft Clarity.
+        <button type="button" id="footer-consent-btn" class="btn-link">Zarządzaj zgodami</button>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Okno wyboru i zmiany zgód (przygotowanie pod CMP) -->
+  <div id="consent-modal" class="consent-overlay" role="dialog" aria-modal="true" aria-labelledby="consent-title" hidden>
+    <div class="consent-box">
+      <h2 id="consent-title">Ustawienia prywatności i zgód</h2>
+      <p>
+        Wybierz zakres zgód. W wariancie podstawowym bez Twojej zgody narzędzia analityczne i marketingowe nie zostaną uruchomione.
+      </p>
+
+      <div class="consent-options">
+        <label class="consent-option">
+          <input type="checkbox" checked disabled>
+          <span><strong>Niezbędne</strong> – poprawne działanie strony i zapamiętanie decyzji.</span>
+        </label>
+
+        <label class="consent-option">
+          <input type="checkbox" id="consent-analytics">
+          <span><strong>Analityka (GA4, Microsoft Clarity)</strong> – pomiar zdarzeń i obserwacja UX.</span>
+        </label>
+
+        <label class="consent-option">
+          <input type="checkbox" id="consent-marketing">
+          <span><strong>Marketing (Meta Pixel)</strong> – pomiar konwersji i remarketing.</span>
+        </label>
+      </div>
+
+      <div class="consent-buttons">
+        <button type="button" id="consent-reject-all" class="btn btn-secondary">Odrzuć opcjonalne</button>
+        <button type="button" id="consent-save-selected" class="btn btn-secondary">Zapisz wybrane</button>
+        <button type="button" id="consent-accept-all" class="btn btn-primary">Akceptuj wszystkie</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

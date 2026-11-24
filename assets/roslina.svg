@@ -1,0 +1,9 @@
+<svg viewBox="0 0 360 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ilustracja rośliny doniczkowej pod opieką">
+  <rect width="360" height="320" rx="24" fill="#e8f3ec"/>
+  <circle cx="270" cy="70" r="35" fill="#f7e39c"/>
+  <path d="M180 210 C150 150, 90 140, 80 90 C130 95, 165 130, 180 190 Z" fill="#2d6a4f"/>
+  <path d="M180 210 C210 140, 270 130, 285 80 C235 85, 195 125, 180 190 Z" fill="#40916c"/>
+  <path d="M180 210 C175 130, 150 70, 180 35 C210 70, 185 130, 180 210 Z" fill="#1b4332"/>
+  <polygon points="130,205 230,205 215,285 145,285" fill="#d48c70"/>
+  <rect x="122" y="195" width="116" height="16" rx="6" fill="#bc6c4d"/>
+</svg>
